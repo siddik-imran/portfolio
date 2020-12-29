@@ -90,7 +90,7 @@
     </section>
 
 
-    <!-- services Section  -->
+    <!-- skill Section  -->
     <section class="services" id="skills">
         <div class="container">
             <div class="section-heading">
@@ -187,23 +187,23 @@
             </div>
 
             <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="300">
                     <h6>Web Development</h6>
                     <h1>Blog site</h1>
                     <p>This is a dynamic blog website.</p>
                     <a href="http://imranofficial31.epizy.com/" target="_blank" class="cta">View Demo</a>
                 </div>
-                <div class="portfolio-img " data-aos="fade-left" data-aos-delay="1200">
+                <div class="portfolio-img " data-aos="fade-left" data-aos-delay="600">
                     <img src="images/portitem1.jpeg" alt="">
                 </div>
                 
             </div>
 
             <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="900">
                     <img src="images/portitem3.jpeg" alt="">
                 </div>
-                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1200">
                     <h6>Web Design</h6>
                     <h1>PSD to HTML5</h1>
                     <p></p>
@@ -212,13 +212,13 @@
             </div>
 
             <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="1500">
                     <h6>Web Development</h6>
                     <h1>Student Management System</h1>
                     <p>It is a web based application where users can search student, add, student, manage student and so on.</p>
                     <a href="librarymanagementsystem.epizy.com" target="_blank" class="cta">View Demo</a>
                 </div>
-                <div class="portfolio-img " data-aos="fade-left" data-aos-delay="1200">
+                <div class="portfolio-img " data-aos="fade-left" data-aos-delay="1800">
                     <img src="images/portitem1.jpeg" alt="">
                 </div>
                 
@@ -253,38 +253,58 @@
     </section>
 
 
-    <!-- Contact Section  -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Contact</h1>
-                <h6>Let's work</h6>
-            </div>
-            <div class="contact-info">
-                <div class="location-map" data-aos="fade-down" data-aos-delay="300">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9536866851163!2d90.40814811445583!3d23.749030894746728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8885bc34b57%3A0xdce6ea72ed84c4e8!2sDr%20Goli%2C%20Dhaka%201205!5e0!3m2!1sen!2sbd!4v1608042653603!5m2!1sen!2sbd" width="550" height="450" frameborder="0" style="border:0; border-radius:5px" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-                <div class="info" data-aos="fade-right" data-aos-delay="300">
-                    <p><i class="fas fa-phone"></i> 01774441359</p>
-                    <p><i class="fas fa-envelope"></i> siddikimraan@gmail.com</p>
-                    <p><i class="fas fa-map-marker-alt"></i> 153/b, doctor goli, boro mogbazar, dhaka-1217</p>
-                </div>
-           </div>
+   <!-- Contact Section  -->
+   <section class="contact" id="contact">
+    <div class="container">
+        <div class="section-heading">
+            <h1>Contact</h1>
+            <h6>Let's wook again</h6>
         </div>
-    </section> 
+        <form action="" data-aos="fade-up" data-aos-delay="300">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name..." required>
 
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+
+            <label for="service" >Services:</label>
+            <select name="service" id="service">
+                <option value="">Web Design</option>
+                <option value="">Web Development</option>
+                <option value="">Web Design and Development</option>
+            </select>
+
+            <label for="subject">Subject:</label>
+            <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+
+            <input type="submit" onclick="myMessage()" value="Submit">
+        </form>
+    </div>
+</section> 
+
+    
     
     <!-- Footer Section  -->
     <footer class="copyright">
         <div class="up" id="up">
             <i class="fas fa-chevron-up"></i>
         </div>
-        <p>copyright &copy;2020  Imran Hasan</p>
+        <div class="info" >
+            <p><i class="fas fa-phone"></i> +880 1774 441359</p>
+            <p><i class="fas fa-envelope"></i> siddikimraan@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> 153/b, doctor goli, boro mogbazar, dhaka-1217</p>
+        </div>
+
     </footer>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="main.js"></script>
+    <script>
+        function myMessage(){
+            alert("Sorry! Contact form dosen't work. This site is not upload on server that's why form dosen't work properly.Kindly contact through my personal email or cell number")
+        }
+    </script>
 </body>
 </html>
