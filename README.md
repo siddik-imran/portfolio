@@ -157,6 +157,9 @@ To swap the photo or CV, simply replace `public/profile.jpg` and `public/Imran_H
 
 ---
 
+
+![CI](https://github.com/siddik-imran/portfolio/actions/workflows/ci.yml/badge.svg)
+
 ## 📄 License
 
 MIT — feel free to fork and adapt for your own portfolio. A small credit is appreciated but not required.
