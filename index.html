@@ -1,310 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <title>Imran Hasan</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" >
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <!-- Header Section  -->
-    <header>
-        <div class="menu-toggler">
-            <div class="bar half start"></div>
-            <div class="bar"></div>
-            <div class="bar half end"></div>
-        </div>
-        <nav class="top-nav">
-            <ul class="nav-list">
-                <li>
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li>
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li>
-                    <a href="#skills" class="nav-link">Skills</a>
-                </li>
-                <li>
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#experience" class="nav-link">Experiennce</a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="landing-text">
-            <h1>Imran Hasan</h1>
-            <h6>Web Designer & Developer</h6>
-        </div>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0a0f" />
 
-    <!-- About Section  -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-                <img src="images/imran.jpg" alt="">
-            </div>
-            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
-                <div class="about-heading">
-                    <h1>About</h1>
-                    <h6>Myself</h6>
-                </div>
-                <p>Hi! I'm Imran Hasan, a web designer/developer focused on crafting great web experiences.Design and coding have been my passion since the days i started working with computers but i found myself into web design/development since 2017.I enjoy crating beautifully designed, intuitive and functional website.
-                This porftolio is a represntation of all that i've learned and accomplished as a science and engineering student.</p>
-                
-                <div class="cv">
-                    <a href="https://drive.google.com/file/d/1T3XlH6H1l9q3xyupF8pilc7AhnA5tH74/view?usp=sharing" target="_blank" class="cv-link">Download cv <i class="fas fa-download"></i></a>
-                </div>
+    <!-- Primary Meta Tags -->
+    <title>Imran Hasan — Full-Stack Web Developer (Laravel · React · Vue)</title>
+    <meta name="title" content="Imran Hasan — Full-Stack Web Developer" />
+    <meta
+      name="description"
+      content="Full-Stack Web Developer with 4+ years of experience building scalable SaaS and web applications using Laravel, React, Vue.js, and MySQL. Available for remote and freelance work."
+    />
+    <meta
+      name="keywords"
+      content="Imran Hasan, Full-Stack Developer, Laravel Developer, React Developer, Vue.js Developer, PHP Engineer, MySQL, SaaS, REST API, Bangladesh, Remote Developer"
+    />
+    <meta name="author" content="Imran Hasan" />
 
-                <div class="social-media">
-                    <ul class="nav-list">
-                        <li>
-                            <a href="https://www.facebook.com/iamsiddiki/" target="_blank" class="icon-link">
-                                <i class="fab fa-facebook-square"></i>
-                            </a>  
-                        </li>
-                        <li>
-                            <a href="https://github.com/siddik-imran" target="_blank" class="icon-link">
-                                <i class="fab fa-github"></i>
-                            </a>  
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/imranhasansiddiki/" target="_blank" class="icon-link">
-                                <i class="fab fa-linkedin"></i>
-                            </a>  
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-        </div>
-    </section>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://siddik-imran.github.io/" />
+    <meta property="og:title" content="Imran Hasan — Full-Stack Web Developer" />
+    <meta
+      property="og:description"
+      content="Full-Stack Web Developer specializing in Laravel, React, Vue.js, and scalable SaaS architecture. 4+ years of experience."
+    />
+    <meta property="og:image" content="./profile.jpg" />
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Imran Hasan — Full-Stack Web Developer" />
+    <meta
+      name="twitter:description"
+      content="Full-Stack Web Developer specializing in Laravel, React, Vue.js, and scalable SaaS architecture."
+    />
+    <meta name="twitter:image" content="./profile.jpg" />
 
-    <!-- skill Section  -->
-    <section class="services" id="skills">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Skills</h1>
-                <h6>Here is my skill charts</h6>
-            </div>
-           <div class="skill-bar">
-                <p>HTML</p>
-                    <div class="skill" data-aos="fade-up" data-aos-delay="300">
-                        <div class="skills html">80%</div>
-                    </div>
-                
-                <p>CSS</p>
-                    <div class="skill" data-aos="fade-right" data-aos-delay="300">
-                        <div class="skills css">75%</div>
-                    </div>
-                
-                <p>JQuery</p>
-                    <div class="skill" data-aos="fade-down" data-aos-delay="300">
-                        <div class="skills js">65%</div>
-                    </div>
-
-                <p>Bootstrap</p>
-                    <div class="skill" data-aos="fade-left" data-aos-delay="300">
-                        <div class="skills bootstrap">80%</div>
-                    </div>
-           
-                <p>PHP</p>
-                    <div class="skill" data-aos="fade-up" data-aos-delay="300">
-                        <div class="skills php">70%</div>
-                    </div>
-            
-                <p>MySQl</p>
-                    <div class="skill" data-aos="fade-left" data-aos-delay="300">
-                        <div class="skills mysql">80%</div>
-                    </div>
-
-                <p>Laravel</p>
-                    <div class="skill" data-aos="fade-down" data-aos-delay="300">
-                        <div class="skills laravel">60%</div>
-                    </div>
-
-                <p>Git</p>
-                    <div class="skill" data-aos="fade-right" data-aos-delay="300">
-                        <div class="skills git">65%</div>
-                    </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- portfolio Section  -->
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Portfolio</h1>
-                <h6>Here is some of my work</h6>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
-                    <img src="images/portitem1.jpeg" alt="">
-                </div>
-                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
-                    <h6>Web Development</h6>
-                    <h1>Library Management System</h1>
-                    <p>It is a web based application where user can search book, issues book, view details and edit their personal profile. Admin can add, remove, delete and update book.</p>
-                    <a href="http://librarymanagement.great-site.net/?i=1" target="_blank" class="cta">View Demo</a>
-                </div>
-            </div>
-            
-            <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
-                    <h6>Web Design</h6>
-                    <h1>Bekary Website</h1>
-                    <p></p>
-                    <a href="https://siddik-imran.github.io/bakeryWebsite/" target="_blank" class="cta">View Demo</a>
-                </div>
-                <div class="portfolio-img " data-aos="fade-left" data-aos-delay="1200">
-                    <img src="images/bakery.PNG" alt="">
-                </div>
-                
-            </div>
-            
-            <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
-                    <img src="images/hotel.PNG" alt="">
-                </div>
-                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
-                    <h6>Web Design</h6>
-                    <h1>Hotel Booking Website</h1>
-                    <p></p>
-                    <a href="https://siddik-imran.github.io/hotelBooking/" target="_blank" class="cta">View Demo</a>
-                </div>
-            </div>
-
-            <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="300">
-                    <h6>Web Development</h6>
-                    <h1>Blog site</h1>
-                    <p>This is a dynamic blog website.</p>
-                    <a href="http://imranofficial31.epizy.com/" target="_blank" class="cta">View Demo</a>
-                </div>
-                <div class="portfolio-img " data-aos="fade-left" data-aos-delay="600">
-                    <img src="images/portitem1.jpeg" alt="">
-                </div>
-                
-            </div>
-
-            <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="900">
-                    <img src="images/portitem3.jpeg" alt="">
-                </div>
-                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1200">
-                    <h6>Web Design</h6>
-                    <h1>PSD to HTML5</h1>
-                    <p></p>
-                    <a href="https://siddik-imran.github.io/spirit-psdtoHTML/" target="_blank" class="cta">View Demo</a>
-                </div>
-            </div>
-
-            <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="1500">
-                    <h6>Web Development</h6>
-                    <h1>Student Management System</h1>
-                    <p>It is a web based application where users can search student, add, student, manage student and so on.</p>
-                    <a href="librarymanagementsystem.epizy.com" target="_blank" class="cta">View Demo</a>
-                </div>
-                <div class="portfolio-img " data-aos="fade-left" data-aos-delay="1800">
-                    <img src="images/portitem1.jpeg" alt="">
-                </div>
-                
-            </div>
-
-        </div>
-    </section>   
-
-
-
-    <!-- Experience Section  -->
-    <section class="experience" id="experience">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Work Experience</h1>
-                
-            </div>
-            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
-                <ul>
-                    <li class="date" data-date="2017 - Present">
-                        <h1>Web Design</h1>
-                        <p>Self Employeed</p>
-                    </li>
-                    <li class="date" data-date="2019 - Present">
-                        <h1>Web Development</h1>
-                        <p>Selft Employeed</p>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
-    </section>
-
-
-   <!-- Contact Section  -->
-   <section class="contact" id="contact">
-    <div class="container">
-        <div class="section-heading">
-            <h1>Contact</h1>
-            <h6>Let's wook again</h6>
-        </div>
-        <form action="" data-aos="fade-up" data-aos-delay="300">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name..." required>
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email..." required>
-
-            <label for="service" >Services:</label>
-            <select name="service" id="service">
-                <option value="">Web Design</option>
-                <option value="">Web Development</option>
-                <option value="">Web Design and Development</option>
-            </select>
-
-            <label for="subject">Subject:</label>
-            <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-
-            <input type="submit" onclick="myMessage()" value="Submit">
-        </form>
-    </div>
-</section> 
-
-    
-    
-    <!-- Footer Section  -->
-    <footer class="copyright">
-        <div class="up" id="up">
-            <i class="fas fa-chevron-up"></i>
-        </div>
-        <div class="info" >
-            <p><i class="fas fa-phone"></i> +880 1774 441359</p>
-            <p><i class="fas fa-envelope"></i> siddikimraan@gmail.com</p>
-            <p><i class="fas fa-map-marker-alt"></i> 153/b, doctor goli, boro mogbazar, dhaka-1217</p>
-        </div>
-
-    </footer>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="main.js"></script>
-    <script>
-        function myMessage(){
-            alert("Sorry! Contact form dosen't work. This site is not upload on server that's why form dosen't work properly.Kindly contact through my personal email or cell number")
-        }
-    </script>
-</body>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
